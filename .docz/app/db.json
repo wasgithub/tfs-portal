@@ -7,10 +7,15 @@
     "repository": null,
     "native": false,
     "codeSandbox": true,
-    "themeConfig": {},
+    "themeConfig": {
+      "mode": "dark",
+      "logo": {
+        "src": "/path/of/my/logo",
+        "width": 150
+      }
+    },
     "separator": "-"
   },
-  "entries": [],
   "props": [
     {
       "key": "src/App.js",
@@ -22,6 +27,46 @@
           "actualName": "App"
         }
       ]
+    }
+  ],
+  "entries": [
+    {
+      "key": "src/docs/documentation/Home.mdx",
+      "value": {
+        "route": "/",
+        "id": "1af89694c695e87cbad050901b14f3d6",
+        "filepath": "src/docs/documentation/Home.mdx",
+        "link": "",
+        "slug": "src-docs-documentation-home",
+        "name": "Home",
+        "menu": "",
+        "headings": [
+          {
+            "slug": "hello-world",
+            "depth": 1,
+            "value": "Hello world"
+          }
+        ]
+      }
+    },
+    {
+      "key": "src/docs/documentation/document-settings.mdx",
+      "value": {
+        "name": "Guias",
+        "route": "/guides",
+        "menu": "Documentação",
+        "id": "0437236ad998f9f7af89acf467ed58f9",
+        "filepath": "src/docs/documentation/document-settings.mdx",
+        "link": "",
+        "slug": "src-docs-documentation-document-settings",
+        "headings": [
+          {
+            "slug": "hello-world",
+            "depth": 1,
+            "value": "Hello world"
+          }
+        ]
+      }
     }
   ]
 }
