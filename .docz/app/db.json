@@ -51,7 +51,7 @@
     {
       "key": "src/docs/documentation/document-settings.mdx",
       "value": {
-        "name": "Guias",
+        "name": "Guias Gerais",
         "route": "/guides",
         "menu": "Documentação",
         "id": "0437236ad998f9f7af89acf467ed58f9",
@@ -153,6 +153,150 @@
             "slug": "simulação",
             "depth": 3,
             "value": "Simulação"
+          }
+        ]
+      }
+    },
+    {
+      "key": "src/docs/documentation/projects.mdx",
+      "value": {
+        "name": "Internet Banking",
+        "route": "/ib",
+        "menu": "Projetos",
+        "id": "06ed6693f494a988c509a53f5e0c43ac",
+        "filepath": "src/docs/documentation/projects.mdx",
+        "link": "",
+        "slug": "src-docs-documentation-projects",
+        "headings": [
+          {
+            "slug": "projeto-internet-banking",
+            "depth": 1,
+            "value": "Projeto INTERNET BANKING"
+          },
+          {
+            "slug": "se-estiver-criando-uma-nova-release-do-produto-se-atente-a-seção-configurando-para-novos-releases",
+            "depth": 2,
+            "value": "Se estiver criando uma nova release do produto se atente a seção  Configurando para novos releases"
+          },
+          {
+            "slug": "se-estiver-clonando-o-projeto-para-trabalhar-sobre-uma-release-já-existente-se-atente-a-seção-desenvolvimento",
+            "depth": 2,
+            "value": "Se estiver clonando o projeto para trabalhar sobre uma release já existente se atente a seção  Desenvolvimento"
+          },
+          {
+            "slug": "palavras-chave",
+            "depth": 2,
+            "value": "Palavras-chave"
+          },
+          {
+            "slug": "-conceito-importante-",
+            "depth": 1,
+            "value": "!!! CONCEITO IMPORTANTE !!!"
+          },
+          {
+            "slug": "configurando-para-novos-releases",
+            "depth": 2,
+            "value": "Configurando para novos releases"
+          },
+          {
+            "slug": "react-native",
+            "depth": 3,
+            "value": "REACT NATIVE"
+          },
+          {
+            "slug": "ios",
+            "depth": 3,
+            "value": "iOS"
+          },
+          {
+            "slug": "android",
+            "depth": 3,
+            "value": "ANDROID"
+          },
+          {
+            "slug": "",
+            "depth": 1,
+            "value": ""
+          },
+          {
+            "slug": "desenvolvimento",
+            "depth": 2,
+            "value": "Desenvolvimento"
+          },
+          {
+            "slug": "configuração-do-ambiente",
+            "depth": 3,
+            "value": "Configuração do ambiente"
+          },
+          {
+            "slug": "executando-a-aplicação",
+            "depth": 3,
+            "value": "Executando a aplicação"
+          },
+          {
+            "slug": "android-1",
+            "depth": 4,
+            "value": "Android"
+          },
+          {
+            "slug": "ios-1",
+            "depth": 4,
+            "value": "iOS"
+          },
+          {
+            "slug": "gerando-a-release",
+            "depth": 3,
+            "value": "Gerando a release"
+          },
+          {
+            "slug": "android-2",
+            "depth": 4,
+            "value": "Android"
+          },
+          {
+            "slug": "ios-2",
+            "depth": 4,
+            "value": "iOS"
+          },
+          {
+            "slug": "erros-comuns",
+            "depth": 1,
+            "value": "Erros comuns"
+          },
+          {
+            "slug": "android-3",
+            "depth": 2,
+            "value": "Android"
+          },
+          {
+            "slug": "android-erro-ao-compilar-o-lottie-react-native-nullpointerexception",
+            "depth": 3,
+            "value": "(Android) Erro ao compilar o lottie-react-native NullPointerException"
+          },
+          {
+            "slug": "android-algum-erro-ao-gerar-a-release-ou-executar-a-aplicação",
+            "depth": 3,
+            "value": "(Android) Algum erro ao gerar a release ou executar a aplicação"
+          },
+          {
+            "slug": "ios-algum-erro-ao-gerar-a-release-ou-executar-a-aplicação",
+            "depth": 3,
+            "value": "(iOS) Algum erro ao gerar a release ou executar a aplicação"
+          },
+          {
+            "slug": "após-alterar-o-arquivo-babelrcjs-ou-o-valor-de-react_app_costumer-o-aplicativo-obtém-os-arquivos-do-valor-anterior",
+            "depth": 3,
+            "value": "Após alterar o arquivo .babelrc.js ou o valor de REACT_APP_COSTUMER o aplicativo obtém os arquivos do valor anterior"
+          },
+          {
+            "slug": "sugestões",
+            "depth": 1,
+            "value": "Sugestões"
+          },
+          {
+            "slug": "para-gerenciar-as-versões-do-nodejs-e-npm",
+            "depth": 2,
+            "value": "Para gerenciar as versões do NodeJS e npm"
           }
         ]
       }

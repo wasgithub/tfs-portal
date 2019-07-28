@@ -1,0 +1,138 @@
+---
+name: Internet Banking
+route: /ib
+menu: Projetos
+---
+
+# Projeto INTERNET BANKING
+
+- ## Se estiver criando uma nova release do produto se atente a seção *[Configurando para novos releases](#Configurando-para-novos-releases)*
+- ## Se estiver clonando o projeto para trabalhar sobre uma release já existente se atente a seção *[Desenvolvimento](#Desenvolvimento)* 
+
+## Palavras-chave
+- [Flavors](https://developer.android.com/studio/build/build-variants): São tipos de compilação e são utilizados para organizar os diferentes releases. Podem ser configurados no menu (Build > Edit Flavors) no Android Studio
+- [Targets/Schemes](https://developer.apple.com/library/archive/featuredarticles/XcodeConcepts/Concept-Targets.html): Definem um produto a ser gerado e contem as instruções necessárias para a geração do produto
+- [Packager]() O packager é o processo reponsável por juntar os módulos javascript/typescript em um unico arquivo denominado *bundle*, detectar alterações nesses arquivos e atualizar esse *bundle*. Esse *bundle* é integrado ao executável da aplicação (.apk/.ipa)
+
+# ***!!! CONCEITO IMPORTANTE !!!***
+- Quando a aplicação é executada utilizando o comando ``react-native run-ios --scheme="Nome do scheme"`` ou ``react-native run-android --variant="Nome do flavor"`` o **packager** depende da variável *REACT_APP_COSTUMER* estar presente no sistema. Veja abaixo na seção ***Configuração do ambiente*** no 2º item, como definir e os valores aceitos para esta variável.
+
+## Configurando para novos releases
+Abaixo descrevem-se as etapas necessárias para configurar uma nova release do projeto
+
+### REACT NATIVE
+Dentro de [src/assets/themes](src/assets/themes/) deve ser criado uma nova pasta com o conteúdo da nova release.
+Os arquivos necessários para a nova release:
+- colors.js (Com as cores do projeto)
+- fonts.js (Com as fontes do projeto (Se forem adicionadas novas fontes, devem ser vinculadas no projeto nativo Android/iOS))
+- images/ (As imagens utilizadas pelo projeto)
+
+### iOS
+- Deve ser criado um novo **target** para a nova release. Isso pode ser feito duplicando um target existente nas configurações do projeto. 
+- Dentro da aba *Build Phases* na fase *Bundle React Native code and images* deve se definida após a linha *export NODE_BINARY=node* a linha *export REACT_APP_COSTUMER="Uma das pastas configuradas no React Native"*
+```shell
+export NODE_BINARY=node
+export REACT_APP_COSTUMER="Uma das pastas configuradas no React Native"
+../node_modules/react-native/scripts/react-native-xcode.sh
+```
+- Deve ser configurado um novo scheme para buildar o target existente. Isso pode ser feito duplicando algum scheme existente.
+- Os recursos de icone do aplicativo e launchscreen da nova release devem ser configurados da seguinte forma:
+- Crie um novo pacote de recursos (.xcassets), e associe ao *target* da release marcando-o na seção **Target membership** (caso necessário desmarque de targets que não estão relacionados ao produto)
+- Dentro do pacote de recursos crie um novo recurso de icone (App Icons & Launch Images > New iOS App Icon) nomeado *AppIcon* e forneça a imagens para os ícones da release
+- Ainda dentro do pacote de recursos crie um novo recurso de imagem (New Image Set) nomeado *splash_screen* e forneça os arquivos de imagem da splash_screen
+
+### ANDROID
+- Deve ser criado um novo **flavor** para a nova release. Pode ser definida pelo menu (Build > Edit Flavors) no Android Studio
+- Dentro das configurações do novo **flavor** deve ser definida a variável *costumer* = "Uma das pastas configuradas no React Native" 
+```gradle
+//Arquivo /android/app/build.gradle
+android {
+  ...
+  flavorDimensions 'dimension'
+  productFlavors {
+    flavorName {
+      dimension = 'dimension'
+      //Esta variável será usada pelo React Native para apontar para a pasta com os recursos da nova release
+      costumer = 'Uma das pastas configuradas em /src/assets/themes/'
+    }
+  }
+  ...
+}
+```
+
+#
+
+## Desenvolvimento
+Abaixo estão descritos os requisitos necessários para um melhor desenvolvimento na arquitetura descrita na seção anterior
+
+### Configuração do ambiente
+- No momento da elaboração deste manual a versão das ferramentas utilizadas no desenvolvimento eram:
+  - npm: 6.4.1
+  - node: 10.15.3
+  - java: 1.8.0_211
+  - XCode: 10.2.1
+- A variável REACT_APP_COSTUMER deve ser definida no ambiente utilizado com o valor igual a algum dos diretórios da pasta [src/assets/themes](src/assets/themes). Isso se deve devido as variáveis configuradas no **flavor**/**target** não serem definidas na sessão do **packager** iniciado pelo comando *react-native run-android*/*react-native run-ios*
+
+### Executando a aplicação
+- Para iniciar o aplicativo deve ser utilizado o seguinte comando:
+
+#### Android
+- **A variável REACT_APP_COSTUMER deve estar definida para que o packager do React Native possa apontar para os recursos da release**
+```console
+# Esse comando é opcional e só é necessário quando a variável REACT_APP_COSTUMER foi definida dentro da sessão do terminal
+react-native start 
+react-native run-android --variant="O nome do flavor da release"Debug
+```
+
+#### iOS
+- **A variável REACT_APP_COSTUMER deve estar definida para que o packager do React Native possa apontar para os recursos específicos da release**
+```
+# Esse comando é opcional e só é necessário quando a variável REACT_APP_COSTUMER foi definida dentro da sessão do terminal
+react-native start 
+react-native run-ios --scheme="O nome do scheme da release"
+```
+
+### Gerando a release
+Para gerar uma versão de publicação da release, deve ser executado o seguinte processo para cada uma das plataformas:
+
+#### Android
+```console
+cd android
+.\gradlew clean
+.\gradlew assemble(O nome do flavor)Release
+```
+Após concluído o processo a APK para publicação estará disponível na pasta [android/app/build/outputs/release/O nome do flavor/arquivo.apk](android/app/build/outputs/release/)
+
+#### iOS
+Selecione o scheme da release especifica, selecione o dispositivo *Generic iOS Device* e selecione a opção (Product > Archive). Vale lembrar que para executar o archive deve ser utilizado um perfil de desenvolvedor na App Store
+
+
+# Erros comuns
+## Android
+### (Android) Erro ao compilar o lottie-react-native NullPointerException
+- A versão do java utilizada pela equipe de desenvolvimento é a 1.8.0_211 versões mais recentes ou mais antigas não foram testadas e por isso podem não funcionar com a versão atual da aplicação.
+### (Android) Algum erro ao gerar a release ou executar a aplicação
+- As vezes o Instant Run pode interferir na geração do APK, devido a isso recomenda-se desabilitar o Instant Run no Android Studio
+
+- Quando o projeto é aberto pela primeira vez, o Android Studio oferece a opção de atualizar o Gradle. Essa alteração na versão do gradle ainda não funciona com a versão de algumas bibliotecas usadas no projeto, logo a atualização pode quebrar o build no Android. No momento de elaboração deste manual, a versão utilizada é a *4.4-all* no arquivo [gradle-wrapper.properties](android/gradle/wrapper/gradle-wrapper.properties)
+
+```ini
+...
+distributionUrl=https\://services.gradle.org/distributions/gradle-4.4-all.zip
+```
+### (iOS) Algum erro ao gerar a release ou executar a aplicação
+- Erro ao gerar a release ou executar a aplicação.
+``'React/RCT*.h' file not found`` Certifique-se de que dentro do **scheme** da release o **target** do React esta definido e o build paralelo desabilitado, já que a release depende do **target** do React
+
+### Após alterar o arquivo .babelrc.js ou o valor de REACT_APP_COSTUMER o aplicativo obtém os arquivos do valor anterior
+- O packager mantém uma versão em cache do arquivo [.babelrc.js](.babelrc.js). Dessa forma uma alteração do arquivo ou da variável pode não se refletir de maneira imediata. Para que o packager utilize a nova versão do arquivo ou variavel é necessário utilizar o comando.
+```
+react-native start --reset-cache
+```
+
+# Sugestões
+
+## Para gerenciar as versões do NodeJS e npm
+- [nvm](https://github.com/nvm-sh/nvm): O *nvm* é um conjunto de comandos que sao instalados no ambiente e permitem gerenciar de maneira facil diversas versões do *NodeJS & npm*
+
+- Para gerenciar a execução de diversas releases do projeto podem ser criados scripts com os comandos dentro do arquivo [package.json](package.json) e depois executá-lo com ``npm run nome_do_script``

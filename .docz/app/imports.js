@@ -7,4 +7,8 @@ export const imports = {
     import(
       /* webpackPrefetch: true, webpackChunkName: "src-docs-documentation-document-settings" */ 'src/docs/documentation/document-settings.mdx'
     ),
+  'src/docs/documentation/projects.mdx': () =>
+    import(
+      /* webpackPrefetch: true, webpackChunkName: "src-docs-documentation-projects" */ 'src/docs/documentation/projects.mdx'
+    ),
 }
