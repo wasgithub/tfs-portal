@@ -63,6 +63,96 @@
             "slug": "documentação",
             "depth": 1,
             "value": "Documentação"
+          },
+          {
+            "slug": "introdução",
+            "depth": 2,
+            "value": "Introdução"
+          },
+          {
+            "slug": "fluxo",
+            "depth": 2,
+            "value": "Fluxo"
+          },
+          {
+            "slug": "regras-para-criação-da-branch",
+            "depth": 2,
+            "value": "Regras para criação da  Branch"
+          },
+          {
+            "slug": "regras-para-criação-de-commits",
+            "depth": 2,
+            "value": "Regras para criação de  Commits"
+          },
+          {
+            "slug": "tipo",
+            "depth": 3,
+            "value": "Tipo"
+          },
+          {
+            "slug": "escopo",
+            "depth": 3,
+            "value": "Escopo"
+          },
+          {
+            "slug": "descrição-curta",
+            "depth": 3,
+            "value": "Descrição curta"
+          },
+          {
+            "slug": "corpo",
+            "depth": 3,
+            "value": "Corpo"
+          },
+          {
+            "slug": "rodapé",
+            "depth": 3,
+            "value": "Rodapé"
+          },
+          {
+            "slug": "breaking-changes",
+            "depth": 3,
+            "value": "Breaking Changes"
+          },
+          {
+            "slug": "exemplos-de-descrições-de-commits-completos",
+            "depth": 3,
+            "value": "Exemplos de descrições de  commits  completos"
+          },
+          {
+            "slug": "regras-para-criação-de-pull-requests",
+            "depth": 2,
+            "value": "Regras para criação de  Pull Requests"
+          },
+          {
+            "slug": "componente",
+            "depth": 3,
+            "value": "Componente"
+          },
+          {
+            "slug": "número-da-issue",
+            "depth": 3,
+            "value": "Número da ISSUE"
+          },
+          {
+            "slug": "pr-checklist",
+            "depth": 3,
+            "value": "PR Checklist"
+          },
+          {
+            "slug": "qual-o-comportamento-atual",
+            "depth": 3,
+            "value": "Qual o comportamento atual?"
+          },
+          {
+            "slug": "qual-o-novo-comportamento",
+            "depth": 3,
+            "value": "Qual o novo comportamento?"
+          },
+          {
+            "slug": "simulação",
+            "depth": 3,
+            "value": "Simulação"
           }
         ]
       }
