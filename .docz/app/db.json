@@ -30,6 +30,55 @@
   ],
   "entries": [
     {
+      "key": "src/docs/documentation/challenge.mdx",
+      "value": {
+        "name": "Desafio",
+        "route": "/challenge",
+        "menu": "Projetos",
+        "id": "0b311d3aeb3f2aa372036a31649e9c5d",
+        "filepath": "src/docs/documentation/challenge.mdx",
+        "link": "",
+        "slug": "src-docs-documentation-challenge",
+        "headings": [
+          {
+            "slug": "desafio",
+            "depth": 1,
+            "value": "Desafio"
+          },
+          {
+            "slug": "construir-a-página-do-administrador",
+            "depth": 2,
+            "value": "Construir a Página do administrador."
+          },
+          {
+            "slug": "construir-o-aplicativo-do-usuário",
+            "depth": 2,
+            "value": "Construir o aplicativo do usuário"
+          },
+          {
+            "slug": "requisitos",
+            "depth": 2,
+            "value": "Requisitos:"
+          },
+          {
+            "slug": "ganhe-mais-pontos",
+            "depth": 2,
+            "value": "Ganhe mais pontos:"
+          },
+          {
+            "slug": "submissão",
+            "depth": 2,
+            "value": "Submissão:"
+          },
+          {
+            "slug": "prazo-de-entrega-sugerido",
+            "depth": 2,
+            "value": "Prazo de entrega sugerido:"
+          }
+        ]
+      }
+    },
+    {
       "key": "src/docs/documentation/document-settings.mdx",
       "value": {
         "name": "Guias Gerais",

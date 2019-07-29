@@ -1,11 +1,13 @@
 {
   "vendors.js": "/static/js/vendors.9d02559c.js",
-  "vendors.js.map": "/static/js/vendors.63075107704791714b87.js.map",
-  "app.js": "/static/js/app.63075107704791714b87.js",
-  "app.js.map": "/static/js/app.63075107704791714b87.js.map",
-  "src-docs-documentation-document-settings.js": "/static/js/src-docs-documentation-document-settings.632a27d5.js",
-  "src-docs-documentation-document-settings.js.map": "/static/js/src-docs-documentation-document-settings.63075107704791714b87.js.map",
-  "src-docs-documentation-projects.js": "/static/js/src-docs-documentation-projects.862b95bb.js",
-  "src-docs-documentation-projects.js.map": "/static/js/src-docs-documentation-projects.63075107704791714b87.js.map",
+  "vendors.js.map": "/static/js/vendors.b64bb1b87707318371e1.js.map",
+  "app.js": "/static/js/app.b64bb1b87707318371e1.js",
+  "app.js.map": "/static/js/app.b64bb1b87707318371e1.js.map",
+  "src-docs-documentation-challenge.js": "/static/js/src-docs-documentation-challenge.fc28465d.js",
+  "src-docs-documentation-challenge.js.map": "/static/js/src-docs-documentation-challenge.b64bb1b87707318371e1.js.map",
+  "src-docs-documentation-document-settings.js": "/static/js/src-docs-documentation-document-settings.fe0f93f6.js",
+  "src-docs-documentation-document-settings.js.map": "/static/js/src-docs-documentation-document-settings.b64bb1b87707318371e1.js.map",
+  "src-docs-documentation-projects.js": "/static/js/src-docs-documentation-projects.64ec4d1a.js",
+  "src-docs-documentation-projects.js.map": "/static/js/src-docs-documentation-projects.b64bb1b87707318371e1.js.map",
   "index.html": "/index.html"
 }
