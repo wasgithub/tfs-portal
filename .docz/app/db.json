@@ -9,6 +9,7 @@
     "codeSandbox": true,
     "themeConfig": {
       "logo": {
+        "src": "/public/images/favicon.ico",
         "width": 150
       }
     },
