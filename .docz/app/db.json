@@ -9,7 +9,6 @@
     "codeSandbox": true,
     "themeConfig": {
       "logo": {
-        "src": "/path/of/my/logo",
         "width": 150
       }
     },
@@ -30,34 +29,15 @@
   ],
   "entries": [
     {
-      "key": "src/docs/documentation/Home.mdx",
-      "value": {
-        "route": "/",
-        "id": "1af89694c695e87cbad050901b14f3d6",
-        "filepath": "src/docs/documentation/Home.mdx",
-        "link": "",
-        "slug": "src-docs-documentation-home",
-        "name": "Home",
-        "menu": "",
-        "headings": [
-          {
-            "slug": "home",
-            "depth": 1,
-            "value": "Home"
-          }
-        ]
-      }
-    },
-    {
       "key": "src/docs/documentation/document-settings.mdx",
       "value": {
         "name": "Guias Gerais",
-        "route": "/guides",
-        "menu": "Documentação",
+        "route": "/",
         "id": "0437236ad998f9f7af89acf467ed58f9",
         "filepath": "src/docs/documentation/document-settings.mdx",
         "link": "",
         "slug": "src-docs-documentation-document-settings",
+        "menu": "",
         "headings": [
           {
             "slug": "documentação",
