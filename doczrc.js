@@ -2,8 +2,8 @@
 export default {
     themeConfig: {
       logo: {
-        src: '/public/images/favicon.ico',
-        width: 150,
+        src: '/public/images/logo.png',
+        width: 50,
       },
     },
   }
