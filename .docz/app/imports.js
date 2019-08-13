@@ -1,4 +1,24 @@
 export const imports = {
+  'src/components/Button/button.mdx': () =>
+    import(
+      /* webpackPrefetch: true, webpackChunkName: "src-components-button-button" */ 'src/components/Button/button.mdx'
+    ),
+  'src/docs/developers/java.mdx': () =>
+    import(
+      /* webpackPrefetch: true, webpackChunkName: "src-docs-developers-java" */ 'src/docs/developers/java.mdx'
+    ),
+  'src/docs/developers/git.mdx': () =>
+    import(
+      /* webpackPrefetch: true, webpackChunkName: "src-docs-developers-git" */ 'src/docs/developers/git.mdx'
+    ),
+  'src/docs/developers/react-native.mdx': () =>
+    import(
+      /* webpackPrefetch: true, webpackChunkName: "src-docs-developers-react-native" */ 'src/docs/developers/react-native.mdx'
+    ),
+  'src/docs/developers/reactjs.mdx': () =>
+    import(
+      /* webpackPrefetch: true, webpackChunkName: "src-docs-developers-reactjs" */ 'src/docs/developers/reactjs.mdx'
+    ),
   'src/docs/documentation/challenge.mdx': () =>
     import(
       /* webpackPrefetch: true, webpackChunkName: "src-docs-documentation-challenge" */ 'src/docs/documentation/challenge.mdx'
