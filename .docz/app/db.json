@@ -13,7 +13,10 @@
         "width": 150
       }
     },
-    "separator": "-"
+    "separator": "-",
+    "htmlContext": {
+      "favicon": "/public/images/icon_totvs.png"
+    }
   },
   "props": [
     {
@@ -55,50 +58,6 @@
             "slug": "hello-world",
             "depth": 1,
             "value": "Hello world"
-          }
-        ]
-      }
-    },
-    {
-      "key": "src/docs/developers/java.mdx",
-      "value": {
-        "name": "Java",
-        "route": "/java",
-        "menu": "Developers",
-        "id": "bcf9b9038ef75a4ec6ddd5546db47b88",
-        "filepath": "src/docs/developers/java.mdx",
-        "link": "",
-        "slug": "src-docs-developers-java",
-        "headings": [
-          {
-            "slug": "java",
-            "depth": 1,
-            "value": "Java"
-          },
-          {
-            "slug": "introdução",
-            "depth": 2,
-            "value": "Introdução"
-          },
-          {
-            "slug": "estrutura-de-projetos",
-            "depth": 2,
-            "value": "Estrutura de Projetos"
-          },
-          {
-            "slug": "boas-práticas",
-            "depth": 2,
-            "value": "Boas Práticas"
-          },
-          {
-            "slug": "erros-comuns",
-            "depth": 2,
-            "value": "Erros Comuns"
-          },
-          {
-            "slug": "deploy",
-            "depth": 2,
-            "value": "Deploy"
           }
         ]
       }
@@ -208,6 +167,50 @@
             "slug": "simulação",
             "depth": 3,
             "value": "Simulação"
+          }
+        ]
+      }
+    },
+    {
+      "key": "src/docs/developers/java.mdx",
+      "value": {
+        "name": "Java",
+        "route": "/java",
+        "menu": "Developers",
+        "id": "bcf9b9038ef75a4ec6ddd5546db47b88",
+        "filepath": "src/docs/developers/java.mdx",
+        "link": "",
+        "slug": "src-docs-developers-java",
+        "headings": [
+          {
+            "slug": "java",
+            "depth": 1,
+            "value": "Java"
+          },
+          {
+            "slug": "introdução",
+            "depth": 2,
+            "value": "Introdução"
+          },
+          {
+            "slug": "estrutura-de-projetos",
+            "depth": 2,
+            "value": "Estrutura de Projetos"
+          },
+          {
+            "slug": "boas-práticas",
+            "depth": 2,
+            "value": "Boas Práticas"
+          },
+          {
+            "slug": "erros-comuns",
+            "depth": 2,
+            "value": "Erros Comuns"
+          },
+          {
+            "slug": "deploy",
+            "depth": 2,
+            "value": "Deploy"
           }
         ]
       }

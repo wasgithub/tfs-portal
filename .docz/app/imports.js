@@ -3,13 +3,13 @@ export const imports = {
     import(
       /* webpackPrefetch: true, webpackChunkName: "src-components-button-button" */ 'src/components/Button/button.mdx'
     ),
-  'src/docs/developers/java.mdx': () =>
-    import(
-      /* webpackPrefetch: true, webpackChunkName: "src-docs-developers-java" */ 'src/docs/developers/java.mdx'
-    ),
   'src/docs/developers/git.mdx': () =>
     import(
       /* webpackPrefetch: true, webpackChunkName: "src-docs-developers-git" */ 'src/docs/developers/git.mdx'
+    ),
+  'src/docs/developers/java.mdx': () =>
+    import(
+      /* webpackPrefetch: true, webpackChunkName: "src-docs-developers-java" */ 'src/docs/developers/java.mdx'
     ),
   'src/docs/developers/react-native.mdx': () =>
     import(

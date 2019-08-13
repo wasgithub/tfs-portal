@@ -1,9 +1,12 @@
 
 export default {
-    themeConfig: {
-      logo: {
-        src: '/public/images/logo.png',
-        width: 150,
-      },
+  htmlContext: {
+    favicon: '/public/images/icon_totvs.png',
+  },
+  themeConfig: {
+    logo: {
+      src: '/public/images/logo.png',
+      width: 150,
     },
+  },
   }
