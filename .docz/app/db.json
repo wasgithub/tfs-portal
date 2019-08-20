@@ -403,19 +403,9 @@
         "slug": "src-docs-documentation-projects",
         "headings": [
           {
-            "slug": "projeto-internet-banking",
+            "slug": "projeto-intenet-banking",
             "depth": 1,
-            "value": "Projeto INTERNET BANKING"
-          },
-          {
-            "slug": "se-estiver-criando-uma-nova-release-do-produto-se-atente-a-seção-configurando-para-novos-releases",
-            "depth": 2,
-            "value": "Se estiver criando uma nova release do produto se atente a seção  Configurando para novos releases"
-          },
-          {
-            "slug": "se-estiver-clonando-o-projeto-para-trabalhar-sobre-uma-release-já-existente-se-atente-a-seção-desenvolvimento",
-            "depth": 2,
-            "value": "Se estiver clonando o projeto para trabalhar sobre uma release já existente se atente a seção  Desenvolvimento"
+            "value": "Projeto Intenet Banking"
           },
           {
             "slug": "palavras-chave",
@@ -423,14 +413,14 @@
             "value": "Palavras-chave"
           },
           {
-            "slug": "-conceito-importante-",
-            "depth": 1,
-            "value": "!!! CONCEITO IMPORTANTE !!!"
+            "slug": "importante",
+            "depth": 2,
+            "value": "IMPORTANTE**"
           },
           {
-            "slug": "configurando-para-novos-releases",
+            "slug": "para-novos-releases",
             "depth": 2,
-            "value": "Configurando para novos releases"
+            "value": "Para novos  releases"
           },
           {
             "slug": "react-native",
@@ -439,12 +429,12 @@
           },
           {
             "slug": "ios",
-            "depth": 3,
+            "depth": 4,
             "value": "iOS"
           },
           {
             "slug": "android",
-            "depth": 3,
+            "depth": 4,
             "value": "ANDROID"
           },
           {
@@ -453,9 +443,9 @@
             "value": ""
           },
           {
-            "slug": "desenvolvimento",
+            "slug": "configuração-para-desenvolvimento",
             "depth": 2,
-            "value": "Desenvolvimento"
+            "value": "Configuração para Desenvolvimento"
           },
           {
             "slug": "configuração-do-ambiente",
@@ -494,12 +484,12 @@
           },
           {
             "slug": "erros-comuns",
-            "depth": 1,
+            "depth": 2,
             "value": "Erros comuns"
           },
           {
             "slug": "android-3",
-            "depth": 2,
+            "depth": 3,
             "value": "Android"
           },
           {
@@ -524,13 +514,57 @@
           },
           {
             "slug": "sugestões",
-            "depth": 1,
+            "depth": 2,
             "value": "Sugestões"
           },
           {
             "slug": "para-gerenciar-as-versões-do-nodejs-e-npm",
-            "depth": 2,
+            "depth": 3,
             "value": "Para gerenciar as versões do NodeJS e npm"
+          }
+        ]
+      }
+    },
+    {
+      "key": "src/docs/structure/projects.mdx",
+      "value": {
+        "name": "Estrutura",
+        "route": "/structure",
+        "menu": "Estrutura",
+        "id": "f47b8af653352179938e10b205a5a5f2",
+        "filepath": "src/docs/structure/projects.mdx",
+        "link": "",
+        "slug": "src-docs-structure-projects",
+        "headings": [
+          {
+            "slug": "estrutura",
+            "depth": 1,
+            "value": "Estrutura"
+          },
+          {
+            "slug": "data-transfer-object-dtos",
+            "depth": 2,
+            "value": "DATA TRANSFER OBJECT (DTO)S"
+          },
+          {
+            "slug": "entidades",
+            "depth": 3,
+            "value": "Entidades"
+          },
+          {
+            "slug": "estrutura-dtos",
+            "depth": 3,
+            "value": "Estrutura DTO's"
+          },
+          {
+            "slug": "regras",
+            "depth": 4,
+            "value": "Regras"
+          },
+          {
+            "slug": "integradores",
+            "depth": 2,
+            "value": "INTEGRADORES"
           }
         ]
       }

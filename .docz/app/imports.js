@@ -31,4 +31,8 @@ export const imports = {
     import(
       /* webpackPrefetch: true, webpackChunkName: "src-docs-documentation-projects" */ 'src/docs/documentation/projects.mdx'
     ),
+  'src/docs/structure/projects.mdx': () =>
+    import(
+      /* webpackPrefetch: true, webpackChunkName: "src-docs-structure-projects" */ 'src/docs/structure/projects.mdx'
+    ),
 }

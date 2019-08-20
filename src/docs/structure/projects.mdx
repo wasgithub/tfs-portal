@@ -1,0 +1,30 @@
+---
+name: Estrutura
+route: /structure
+menu: Estrutura
+---
+
+# Estrutura
+
+## DATA TRANSFER OBJECT (DTO)S
+Simplesmente Transfer Object é um padrão de projetos bastante usado em Java para o transporte de dados entre diferentes componentes de um sistema, diferentes instâncias ou processos de um sistema distribuído ou diferentes sistemas via serialização.
+
+### Entidades
+  Os objetos ou partes envolvidas um domínio, também chamados de entidades, podem ser classificados como físicos ou lógicos, de acordo sua existência no mundo real.
+
+  ### Estrutura DTO's
+
+  Cada entidade do banco de dados possui um grupo de DTO's que seguem os seguintes sufixos:
+
+  * DTO
+  * DetalheDTO
+  * FiltroDTO
+  * BuscarDTO
+
+#### Regras
+**DTO:** Obrigatório possuir a chave primária, o mesmo deve possuir o mínimo de campos. <br />
+**detalheDTO:** Deve possuir todos os campos da tabela. <br />
+**FiltroDTO** Deve conter os campos para pesquisa. <br />
+**BuscarDTO** Utilizado a chave primária para busca.
+
+## INTEGRADORES
