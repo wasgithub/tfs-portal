@@ -63,13 +63,13 @@
       }
     },
     {
-      "key": "src/docs/developers/git.mdx",
+      "key": "src/docs/developers/git.md",
       "value": {
         "name": "Git",
         "route": "/git",
         "menu": "Developers",
-        "id": "8d7dcf6ce8429e0739213a47ebeef409",
-        "filepath": "src/docs/developers/git.mdx",
+        "id": "f7deafbeb199c15b4807a7f5987cdfa4",
+        "filepath": "src/docs/developers/git.md",
         "link": "",
         "slug": "src-docs-developers-git",
         "headings": [
@@ -172,20 +172,20 @@
       }
     },
     {
-      "key": "src/docs/developers/java.mdx",
+      "key": "src/docs/developers/react-native.mdx",
       "value": {
-        "name": "Java",
-        "route": "/java",
+        "name": "React Native",
+        "route": "/reactNative",
         "menu": "Developers",
-        "id": "bcf9b9038ef75a4ec6ddd5546db47b88",
-        "filepath": "src/docs/developers/java.mdx",
+        "id": "44953632ca137c148c979f92a5f55d36",
+        "filepath": "src/docs/developers/react-native.mdx",
         "link": "",
-        "slug": "src-docs-developers-java",
+        "slug": "src-docs-developers-react-native",
         "headings": [
           {
-            "slug": "java",
+            "slug": "react-native",
             "depth": 1,
-            "value": "Java"
+            "value": "React Native"
           },
           {
             "slug": "introdução",
@@ -216,20 +216,20 @@
       }
     },
     {
-      "key": "src/docs/developers/react-native.mdx",
+      "key": "src/docs/developers/java.mdx",
       "value": {
-        "name": "React Native",
-        "route": "/reactNative",
+        "name": "Java",
+        "route": "/java",
         "menu": "Developers",
-        "id": "44953632ca137c148c979f92a5f55d36",
-        "filepath": "src/docs/developers/react-native.mdx",
+        "id": "bcf9b9038ef75a4ec6ddd5546db47b88",
+        "filepath": "src/docs/developers/java.mdx",
         "link": "",
-        "slug": "src-docs-developers-react-native",
+        "slug": "src-docs-developers-java",
         "headings": [
           {
-            "slug": "react-native",
+            "slug": "java",
             "depth": 1,
-            "value": "React Native"
+            "value": "Java"
           },
           {
             "slug": "introdução",
@@ -304,6 +304,89 @@
       }
     },
     {
+      "key": "src/docs/structure/projects.mdx",
+      "value": {
+        "name": "Estrutura",
+        "route": "/structure",
+        "menu": "Estrutura",
+        "id": "f47b8af653352179938e10b205a5a5f2",
+        "filepath": "src/docs/structure/projects.mdx",
+        "link": "",
+        "slug": "src-docs-structure-projects",
+        "headings": [
+          {
+            "slug": "estrutura",
+            "depth": 1,
+            "value": "Estrutura"
+          },
+          {
+            "slug": "data-transfer-object-dtos",
+            "depth": 2,
+            "value": "DATA TRANSFER OBJECT (DTO)S"
+          },
+          {
+            "slug": "entidades",
+            "depth": 3,
+            "value": "Entidades"
+          },
+          {
+            "slug": "estrutura-dtos",
+            "depth": 3,
+            "value": "Estrutura DTO's"
+          },
+          {
+            "slug": "regras",
+            "depth": 4,
+            "value": "Regras"
+          },
+          {
+            "slug": "integradores",
+            "depth": 2,
+            "value": "INTEGRADORES"
+          }
+        ]
+      }
+    },
+    {
+      "key": "src/docs/documentation/document-settings.mdx",
+      "value": {
+        "name": "Bem vindo",
+        "route": "/",
+        "id": "0437236ad998f9f7af89acf467ed58f9",
+        "filepath": "src/docs/documentation/document-settings.mdx",
+        "link": "",
+        "slug": "src-docs-documentation-document-settings",
+        "menu": "",
+        "headings": [
+          {
+            "slug": "documentação",
+            "depth": 1,
+            "value": "Documentação"
+          },
+          {
+            "slug": "sobre-a-documentação",
+            "depth": 2,
+            "value": "Sobre a Documentação"
+          },
+          {
+            "slug": "navegação",
+            "depth": 2,
+            "value": "Navegação"
+          },
+          {
+            "slug": "algo-faltando",
+            "depth": 2,
+            "value": "Algo faltando?"
+          },
+          {
+            "slug": "comentários",
+            "depth": 2,
+            "value": "Comentários"
+          }
+        ]
+      }
+    },
+    {
       "key": "src/docs/documentation/challenge.mdx",
       "value": {
         "name": "Desafio",
@@ -353,40 +436,75 @@
       }
     },
     {
-      "key": "src/docs/documentation/document-settings.mdx",
+      "key": "src/docs/documentation/pfin.md",
       "value": {
-        "name": "Bem vindo",
-        "route": "/",
-        "id": "0437236ad998f9f7af89acf467ed58f9",
-        "filepath": "src/docs/documentation/document-settings.mdx",
+        "name": "PFin",
+        "route": "/pfin",
+        "menu": "Projetos",
+        "id": "3cd6a30cf30cec28b911822a9e241f76",
+        "filepath": "src/docs/documentation/pfin.md",
         "link": "",
-        "slug": "src-docs-documentation-document-settings",
-        "menu": "",
+        "slug": "src-docs-documentation-pfin",
         "headings": [
           {
-            "slug": "documentação",
+            "slug": "configurações",
             "depth": 1,
-            "value": "Documentação"
+            "value": "Configurações"
           },
           {
-            "slug": "sobre-a-documentação",
+            "slug": "variáveis-de-ambiente-react",
             "depth": 2,
-            "value": "Sobre a Documentação"
+            "value": "Variáveis de ambiente REACT"
           },
           {
-            "slug": "navegação",
+            "slug": "variáveis-de-ambiente-android",
             "depth": 2,
-            "value": "Navegação"
+            "value": "Variáveis de ambiente Android"
           },
           {
-            "slug": "algo-faltando",
+            "slug": "configuração-de-aplicações-java",
             "depth": 2,
-            "value": "Algo faltando?"
+            "value": "Configuração de aplicações JAVA"
           },
           {
-            "slug": "comentários",
+            "slug": "desabilitar-segurança-do-chrome",
             "depth": 2,
-            "value": "Comentários"
+            "value": "Desabilitar segurança do chrome"
+          },
+          {
+            "slug": "instalar-dependências-reactive-native",
+            "depth": 2,
+            "value": "Instalar dependências Reactive Native"
+          },
+          {
+            "slug": "iniciar-app-no-android",
+            "depth": 2,
+            "value": "Iniciar APP no Android"
+          },
+          {
+            "slug": "correção-de-problemas",
+            "depth": 2,
+            "value": "Correção de problemas"
+          },
+          {
+            "slug": "system-limit-for-number-of-file-watchers-reached",
+            "depth": 3,
+            "value": "System limit for number of file watchers reached"
+          },
+          {
+            "slug": "configuração-de-hosts",
+            "depth": 2,
+            "value": "Configuração de hosts"
+          },
+          {
+            "slug": "instalar-apk-no-emulador",
+            "depth": 2,
+            "value": "Instalar APK no emulador"
+          },
+          {
+            "slug": "gerar-apk-android",
+            "depth": 2,
+            "value": "Gerar APK Android"
           }
         ]
       }
@@ -521,50 +639,6 @@
             "slug": "para-gerenciar-as-versões-do-nodejs-e-npm",
             "depth": 3,
             "value": "Para gerenciar as versões do NodeJS e npm"
-          }
-        ]
-      }
-    },
-    {
-      "key": "src/docs/structure/projects.mdx",
-      "value": {
-        "name": "Estrutura",
-        "route": "/structure",
-        "menu": "Estrutura",
-        "id": "f47b8af653352179938e10b205a5a5f2",
-        "filepath": "src/docs/structure/projects.mdx",
-        "link": "",
-        "slug": "src-docs-structure-projects",
-        "headings": [
-          {
-            "slug": "estrutura",
-            "depth": 1,
-            "value": "Estrutura"
-          },
-          {
-            "slug": "data-transfer-object-dtos",
-            "depth": 2,
-            "value": "DATA TRANSFER OBJECT (DTO)S"
-          },
-          {
-            "slug": "entidades",
-            "depth": 3,
-            "value": "Entidades"
-          },
-          {
-            "slug": "estrutura-dtos",
-            "depth": 3,
-            "value": "Estrutura DTO's"
-          },
-          {
-            "slug": "regras",
-            "depth": 4,
-            "value": "Regras"
-          },
-          {
-            "slug": "integradores",
-            "depth": 2,
-            "value": "INTEGRADORES"
           }
         ]
       }
