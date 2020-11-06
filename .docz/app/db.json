@@ -172,20 +172,20 @@
       }
     },
     {
-      "key": "src/docs/developers/react-native.mdx",
+      "key": "src/docs/developers/java.mdx",
       "value": {
-        "name": "React Native",
-        "route": "/reactNative",
+        "name": "Java",
+        "route": "/java",
         "menu": "Developers",
-        "id": "44953632ca137c148c979f92a5f55d36",
-        "filepath": "src/docs/developers/react-native.mdx",
+        "id": "bcf9b9038ef75a4ec6ddd5546db47b88",
+        "filepath": "src/docs/developers/java.mdx",
         "link": "",
-        "slug": "src-docs-developers-react-native",
+        "slug": "src-docs-developers-java",
         "headings": [
           {
-            "slug": "react-native",
+            "slug": "java",
             "depth": 1,
-            "value": "React Native"
+            "value": "Java"
           },
           {
             "slug": "introdução",
@@ -216,20 +216,20 @@
       }
     },
     {
-      "key": "src/docs/developers/java.mdx",
+      "key": "src/docs/developers/react-native.mdx",
       "value": {
-        "name": "Java",
-        "route": "/java",
+        "name": "React Native",
+        "route": "/reactNative",
         "menu": "Developers",
-        "id": "bcf9b9038ef75a4ec6ddd5546db47b88",
-        "filepath": "src/docs/developers/java.mdx",
+        "id": "44953632ca137c148c979f92a5f55d36",
+        "filepath": "src/docs/developers/react-native.mdx",
         "link": "",
-        "slug": "src-docs-developers-java",
+        "slug": "src-docs-developers-react-native",
         "headings": [
           {
-            "slug": "java",
+            "slug": "react-native",
             "depth": 1,
-            "value": "Java"
+            "value": "React Native"
           },
           {
             "slug": "introdução",
@@ -304,89 +304,6 @@
       }
     },
     {
-      "key": "src/docs/structure/projects.mdx",
-      "value": {
-        "name": "Estrutura",
-        "route": "/structure",
-        "menu": "Estrutura",
-        "id": "f47b8af653352179938e10b205a5a5f2",
-        "filepath": "src/docs/structure/projects.mdx",
-        "link": "",
-        "slug": "src-docs-structure-projects",
-        "headings": [
-          {
-            "slug": "estrutura",
-            "depth": 1,
-            "value": "Estrutura"
-          },
-          {
-            "slug": "data-transfer-object-dtos",
-            "depth": 2,
-            "value": "DATA TRANSFER OBJECT (DTO)S"
-          },
-          {
-            "slug": "entidades",
-            "depth": 3,
-            "value": "Entidades"
-          },
-          {
-            "slug": "estrutura-dtos",
-            "depth": 3,
-            "value": "Estrutura DTO's"
-          },
-          {
-            "slug": "regras",
-            "depth": 4,
-            "value": "Regras"
-          },
-          {
-            "slug": "integradores",
-            "depth": 2,
-            "value": "INTEGRADORES"
-          }
-        ]
-      }
-    },
-    {
-      "key": "src/docs/documentation/document-settings.mdx",
-      "value": {
-        "name": "Bem vindo",
-        "route": "/",
-        "id": "0437236ad998f9f7af89acf467ed58f9",
-        "filepath": "src/docs/documentation/document-settings.mdx",
-        "link": "",
-        "slug": "src-docs-documentation-document-settings",
-        "menu": "",
-        "headings": [
-          {
-            "slug": "documentação",
-            "depth": 1,
-            "value": "Documentação"
-          },
-          {
-            "slug": "sobre-a-documentação",
-            "depth": 2,
-            "value": "Sobre a Documentação"
-          },
-          {
-            "slug": "navegação",
-            "depth": 2,
-            "value": "Navegação"
-          },
-          {
-            "slug": "algo-faltando",
-            "depth": 2,
-            "value": "Algo faltando?"
-          },
-          {
-            "slug": "comentários",
-            "depth": 2,
-            "value": "Comentários"
-          }
-        ]
-      }
-    },
-    {
       "key": "src/docs/documentation/challenge.mdx",
       "value": {
         "name": "Desafio",
@@ -431,6 +348,45 @@
             "slug": "prazo-de-entrega-sugerido",
             "depth": 2,
             "value": "Prazo de entrega sugerido:"
+          }
+        ]
+      }
+    },
+    {
+      "key": "src/docs/documentation/document-settings.mdx",
+      "value": {
+        "name": "Bem vindo",
+        "route": "/",
+        "id": "0437236ad998f9f7af89acf467ed58f9",
+        "filepath": "src/docs/documentation/document-settings.mdx",
+        "link": "",
+        "slug": "src-docs-documentation-document-settings",
+        "menu": "",
+        "headings": [
+          {
+            "slug": "documentação",
+            "depth": 1,
+            "value": "Documentação"
+          },
+          {
+            "slug": "sobre-a-documentação",
+            "depth": 2,
+            "value": "Sobre a Documentação"
+          },
+          {
+            "slug": "navegação",
+            "depth": 2,
+            "value": "Navegação"
+          },
+          {
+            "slug": "algo-faltando",
+            "depth": 2,
+            "value": "Algo faltando?"
+          },
+          {
+            "slug": "comentários",
+            "depth": 2,
+            "value": "Comentários"
           }
         ]
       }
@@ -639,6 +595,169 @@
             "slug": "para-gerenciar-as-versões-do-nodejs-e-npm",
             "depth": 3,
             "value": "Para gerenciar as versões do NodeJS e npm"
+          }
+        ]
+      }
+    },
+    {
+      "key": "src/docs/documentation/sprint 8.md",
+      "value": {
+        "name": "PFin",
+        "route": "/pfin",
+        "menu": "Projetos",
+        "id": "a97097bd76f78780a2d85845d2cc04da",
+        "filepath": "src/docs/documentation/sprint 8.md",
+        "link": "",
+        "slug": "src-docs-documentation-sprint-8",
+        "headings": [
+          {
+            "slug": "sprint-8---review",
+            "depth": 1,
+            "value": "SPRINT 8 - REVIEW"
+          },
+          {
+            "slug": "web",
+            "depth": 2,
+            "value": "WEB"
+          },
+          {
+            "slug": "dtfscbpfin-254",
+            "depth": 3,
+            "value": "DTFSCBPFIN-254"
+          },
+          {
+            "slug": "dtfscbpfin-246---portal-web-meus-investimentos---valor-atual",
+            "depth": 3,
+            "value": "DTFSCBPFIN-246 -  Portal WEB  Meus Investimentos -  Valor atual"
+          },
+          {
+            "slug": "dtfscbpfin-245---portal-web-meus-investimentos---total-aplicado",
+            "depth": 3,
+            "value": "DTFSCBPFIN-245 -  Portal WEB  Meus Investimentos - Total aplicado]"
+          },
+          {
+            "slug": "dtfscbpfin-828---portal-web-mensagem-de-sessão-encerrada-ao-realizar-a-troca-da-senha-de-acesso",
+            "depth": 3,
+            "value": "DTFSCBPFIN-828 -  PORTAL WEB  Mensagem de 'sessão encerrada' ao realizar a troca da senha de acesso."
+          },
+          {
+            "slug": "dtfscbpfin-1309---ajuste-de-layout",
+            "depth": 3,
+            "value": "DTFSCBPFIN-1309 - Ajuste de Layout"
+          },
+          {
+            "slug": "dtfscbpfin-1004---admin-service-salvar-cliente-incluir-informação-de-tipo-de-documento",
+            "depth": 3,
+            "value": "DTFSCBPFIN-1004 -  Admin Service  Salvar Cliente incluir informação de tipo de documento"
+          },
+          {
+            "slug": "dtfscbpfin-1005---backend-salvar-cliente-incluir-informação-de-tipo-de-documento",
+            "depth": 3,
+            "value": "DTFSCBPFIN-1005 -  Backend  Salvar Cliente incluir informação de tipo de documento"
+          },
+          {
+            "slug": "dtfscbpfin-1253---api-de-detalhe-da-liberação-de-modalidade-por-canal",
+            "depth": 3,
+            "value": "DTFSCBPFIN-1253 - API de Detalhe da Liberação de Modalidade por Canal"
+          },
+          {
+            "slug": "dtfscbpfin-1247---api-de-seleção-de-canal",
+            "depth": 3,
+            "value": "DTFSCBPFIN-1247 - API de Seleção de Canal"
+          },
+          {
+            "slug": "dtfscbpfin-1248---api-de-seleção-de-situação-da-inclusão-tipo-enumeração",
+            "depth": 3,
+            "value": "DTFSCBPFIN-1248 - API de Seleção de Situação da Inclusão (Tipo Enumeração)"
+          },
+          {
+            "slug": "mobile",
+            "depth": 2,
+            "value": "MOBILE"
+          },
+          {
+            "slug": "dtfscbpfin-1112---emprestimos-listar-meus-contratos",
+            "depth": 3,
+            "value": "DTFSCBPFIN-1112 - Emprestimos Listar Meus Contratos"
+          },
+          {
+            "slug": "dtfscbpfin-1116---detalhes-do-meu-contrato-de-emprestimo",
+            "depth": 3,
+            "value": "DTFSCBPFIN-1116 - Detalhes do Meu Contrato de Emprestimo"
+          },
+          {
+            "slug": "dtfscbpfin-1117---ver-parcelas",
+            "depth": 3,
+            "value": "DTFSCBPFIN-1117 - Ver Parcelas"
+          },
+          {
+            "slug": "dtfscbpfin-1274---api-backend-busca-de-dados-consilidado",
+            "depth": 3,
+            "value": "DTFSCBPFIN-1274 - API BACKEND busca de dados consilidado"
+          },
+          {
+            "slug": "dtfscbpfin-1275---api-admin-service-busca-de-dados-consilidado",
+            "depth": 3,
+            "value": "DTFSCBPFIN-1275 - API ADMIN SERVICE busca de dados consilidado"
+          },
+          {
+            "slug": "dtfscbpfin-255---mobile-meus-investimentos---totalizadores-de-aplicações",
+            "depth": 3,
+            "value": "DTFSCBPFIN-255 -  Mobile  Meus Investimentos - Totalizadores de Aplicações"
+          },
+          {
+            "slug": "portal-admin",
+            "depth": 2,
+            "value": "PORTAL ADMIN"
+          },
+          {
+            "slug": "dtfscbpfin-878---padmin-ativar-produto",
+            "depth": 3,
+            "value": "DTFSCBPFIN-878 -  P.ADMIN) Ativar Produto"
+          }
+        ]
+      }
+    },
+    {
+      "key": "src/docs/structure/projects.mdx",
+      "value": {
+        "name": "Estrutura",
+        "route": "/structure",
+        "menu": "Estrutura",
+        "id": "f47b8af653352179938e10b205a5a5f2",
+        "filepath": "src/docs/structure/projects.mdx",
+        "link": "",
+        "slug": "src-docs-structure-projects",
+        "headings": [
+          {
+            "slug": "estrutura",
+            "depth": 1,
+            "value": "Estrutura"
+          },
+          {
+            "slug": "data-transfer-object-dtos",
+            "depth": 2,
+            "value": "DATA TRANSFER OBJECT (DTO)S"
+          },
+          {
+            "slug": "entidades",
+            "depth": 3,
+            "value": "Entidades"
+          },
+          {
+            "slug": "estrutura-dtos",
+            "depth": 3,
+            "value": "Estrutura DTO's"
+          },
+          {
+            "slug": "regras",
+            "depth": 4,
+            "value": "Regras"
+          },
+          {
+            "slug": "integradores",
+            "depth": 2,
+            "value": "INTEGRADORES"
           }
         ]
       }
