@@ -602,8 +602,8 @@
     {
       "key": "src/docs/documentation/sprint 8.md",
       "value": {
-        "name": "PFin",
-        "route": "/pfin",
+        "name": "Sprint 8",
+        "route": "/sprint8",
         "menu": "Projetos",
         "id": "a97097bd76f78780a2d85845d2cc04da",
         "filepath": "src/docs/documentation/sprint 8.md",

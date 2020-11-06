@@ -1,6 +1,6 @@
 ---
-name: PFin
-route: /pfin
+name: Sprint 8
+route: /sprint8
 menu: Projetos
 ---
 
