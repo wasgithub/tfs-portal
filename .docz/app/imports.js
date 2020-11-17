@@ -1,8 +1,4 @@
 export const imports = {
-  'src/components/Button/button.mdx': () =>
-    import(
-      /* webpackPrefetch: true, webpackChunkName: "src-components-button-button" */ 'src/components/Button/button.mdx'
-    ),
   'src/docs/developers/git.md': () =>
     import(
       /* webpackPrefetch: true, webpackChunkName: "src-docs-developers-git" */ 'src/docs/developers/git.md'
@@ -42,5 +38,9 @@ export const imports = {
   'src/docs/structure/projects.mdx': () =>
     import(
       /* webpackPrefetch: true, webpackChunkName: "src-docs-structure-projects" */ 'src/docs/structure/projects.mdx'
+    ),
+  'src/components/Button/button.mdx': () =>
+    import(
+      /* webpackPrefetch: true, webpackChunkName: "src-components-button-button" */ 'src/components/Button/button.mdx'
     ),
 }

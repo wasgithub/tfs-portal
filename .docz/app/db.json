@@ -44,25 +44,6 @@
   ],
   "entries": [
     {
-      "key": "src/components/Button/button.mdx",
-      "value": {
-        "name": "Button",
-        "menu": "Components",
-        "id": "c3a4162ba271ddbeabea462f799cd4e0",
-        "filepath": "src/components/Button/button.mdx",
-        "link": "",
-        "slug": "src-components-button-button",
-        "route": "/src-components-button-button",
-        "headings": [
-          {
-            "slug": "hello-world",
-            "depth": 1,
-            "value": "Hello world"
-          }
-        ]
-      }
-    },
-    {
       "key": "src/docs/developers/git.md",
       "value": {
         "name": "Git",
@@ -758,6 +739,25 @@
             "slug": "integradores",
             "depth": 2,
             "value": "INTEGRADORES"
+          }
+        ]
+      }
+    },
+    {
+      "key": "src/components/Button/button.mdx",
+      "value": {
+        "name": "Button",
+        "menu": "Components",
+        "id": "c3a4162ba271ddbeabea462f799cd4e0",
+        "filepath": "src/components/Button/button.mdx",
+        "link": "",
+        "slug": "src-components-button-button",
+        "route": "/src-components-button-button",
+        "headings": [
+          {
+            "slug": "hello-world",
+            "depth": 1,
+            "value": "Hello world"
           }
         ]
       }
